@@ -1,0 +1,25 @@
+html,
+body {
+  background-color: lightgray
+  margin: 0;
+  padding: 0;
+     
+}
+.navbar-brand--bypeppers {
+  float: right;
+}
+.navbar-brand img {
+  display: block;
+}
+.navbar-brand div {
+}
+.background-image {
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+
+  display: table;
+  height: 100%;
+  padding-top:  86px;
+  position: relative;
+  width: 100%;
+}
