@@ -1,9 +1,9 @@
 html,
 body {
-  background-color: lightgray
+  background-color:lightgray
   margin: 0;
   padding: 0;
-     
+
 }
 .navbar-brand--bypeppers {
   float: right;
@@ -22,4 +22,13 @@ body {
   padding-top:  86px;
   position: relative;
   width: 100%;
+}
+.container {
+
+}
+section {
+
+}
+footer {
+  
 }
