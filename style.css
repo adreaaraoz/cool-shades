@@ -24,11 +24,53 @@ body {
   width: 100%;
 }
 .container {
+    width:
+    margin:
+    padding:
+    position:
 
 }
+
+<!--main -->
+
+
+
+.container {
+  width:
+  margin:
+  padding:
+  position:
+
+}
+
+.row {
+  width:
+  margin
+  padding
+  position:
+
+}
+.col{
+
+}
+
 section {
+  .container {
+
+  }
+  .row {
+
+  }
+  .col {
+
+  }
 
 }
 footer {
-  
+  position: fixed;
+    bottom: ;
+    left: ;
+    height: ;
+    background-color: BLACK;
+    width: 100%;
 }
