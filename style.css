@@ -17,14 +17,11 @@ body {
 ********** BUTTONS *********
 ****************************/
 .btn-primary {
-  background-color: #d51419;
-  border-color: #dc3545;
+  background-color: ;
+  border-color:;
 }
 
-.btn-primary:hover {
-  background-color: #dc3545;
-  border-color: #d51419;
-}
+
 
 
 
@@ -38,7 +35,7 @@ body {
   * Make the hero.jpg image fill the height of the browser
   *
   *********************************************************/
-  background-image: url("images/hero.jpg");
+  background-image:;
   background-size: cover;
   height: 100%;
 }
