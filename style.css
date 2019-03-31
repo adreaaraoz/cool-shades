@@ -1,6 +1,5 @@
 html,
 body {
-  background-color: lightgrey;
   margin: 0;
   padding: 0;
   /*********************************************************
@@ -11,6 +10,8 @@ body {
   *********************************************************/
   height: 100%;
 }
+
+
 /***************************
 ********** BUTTONS *********
 ****************************/
@@ -138,4 +139,123 @@ main p {
   font-size: 20px;
   color: white;
   text-shadow: -1px 1px 15px rgba(0,0,0,.2);
+}
+
+
+/************************
+****** Instagram ********
+************************/
+
+/* :last-child
+*
+* https://www.w3.org/wiki/CSS/Selectors/pseudo-classes/:last-child
+*
+*/
+.instagram-container .col:last-child {
+  padding-left: 0;
+}
+
+/* position:absolute
+*
+* https://developer.mozilla.org/en-US/docs/Web/CSS/position
+*
+*/
+.ig-logo {
+  left: 10px;
+  bottom: 10px;
+  position: absolute;
+  width: 40px;
+}
+
+
+/********************/
+/* PRODUCTS CONTENT CSS */
+/********************/
+#desktop-products > .row {
+  margin: 0 10px;
+}
+
+.peppers-product {
+  padding: 0 5px;
+}
+
+.peppers-product > p, .product-price {
+  background-color: #fAfAfA;
+  color: #000;
+  text-align: center;
+}
+
+.peppers-product > p {
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+p.product-price {
+  font-weight: bold;
+  font-size: 1.25em;
+  margin-bottom: 0;
+  padding-bottom: 1.5em;
+}
+
+.peppers-product > h3 {
+  background-color: #fAfAfA;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 1.5em;
+  text-align: center;
+}
+
+.product-cta-container {
+  background-color: #fAfAfA;
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+/* responsive */
+
+#mobile-products-container {
+  display: block;
+}
+
+#desktop-products {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #mobile-products-container {
+    display: none;
+  }
+
+  #desktop-products {
+    display: block
+  }
+}
+
+.circles {
+  padding: 0 0 2rem;
+}
+
+.circle {
+  border-radius: 100%;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.black {
+  background: black;
 }
